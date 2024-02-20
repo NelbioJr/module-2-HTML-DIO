@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Horario Clínica Cunha's</title>
+    <link rel="stylesheet" href="base.css">
+    <style>
+        body{
+            font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+            padding-top: 25px;
+        }
+        li{
+            list-style: none;
+            
+        }
+
+        a{
+            color: black;
+            text-decoration: none;
+        }
+
+        a:hover{
+            color: gray;
+            font-style: italic;
+        }
+        table{
+            text-align: left;
+            padding-left: 5px;
+        }
+
+        thead{
+            background-color: #dedede;
+        }
+        tbody tr:nth-child(even){
+            background-color: #f1f1f1;
+        }
+    </style>
+</head>
+<body>
+    <div class="wrapper">
+        <div class="menu">
+            <!-- Aqui vai o seu menu -->
+            <ul>
+                <li><a href="index.html">HOME</a></li><br>
+                <li><a href="sobre.html">SOBRE A CLINICA</a></li><br>
+                <li><a href="horario.html">HORÁRIO DE ANTENDIMENTO</a></li><br>
+                <li><a href="contato.html">CONTATO</a></li>
+            </ul>
+        </div>
+
+        <div class="main">
+            <div class="header">
+                <img src="img/calendario.jpg" style="height: 150px; width: 100%;"  alt="" srcset="">
+            </div>
+    
+            <div class="content">
+                
+                <!-- Aqui vai o seu conteúdo -->
+
+                <table border="solid 1px black" cellpadding="10px" style="text-align: center; margin: 20px auto; font-size: 20px; box-shadow: 2px 2px rgba(55, 53, 53, 0.5);">
+                    <thead>
+                        <th colspan="4" style="border: solid 1px black;">TABELA DE HORÁRIO DA CLINICA</th>
+                    </thead>
+                    <tbody>
+                        <tr >
+                            <th>Serviços</th>
+                            <th>Segunda a Sexta</th>
+                            <th>Sábados</th>
+                            <th>Feriados</th>
+                        </tr>
+                        <tr>
+                            <th scope="row">Clínica Geral</th>
+                            <td> 08h - 19h</td>
+                            <td> 08h - 14h</td>
+                            <td> 08h - 14h</td>
+                        </tr>
+                        <tr>
+                            <th scope="row">Psicologia</th>
+                            <td> 08h - 19h</td>
+                            <td> 08h - 14h</td>
+                            <td> 08h - 14h</td>
+                        </tr>
+                        <tr>
+                            <th scope="row">Pediatria</th>
+                            <td> 08h - 19h</td>
+                            <td> 08h - 14h</td>
+                            
+                        </tr>
+                        <tr>
+                            <th scope="row">Oftalmologia</th>
+                            <td> 08h - 19h</td>
+                            <td> 08h - 14h</td>
+                            
+                        </tr>
+
+                    </tbody>
+                </table>
+                
+            </div>
+    
+            <div class="footer" style="padding: 5px 20px; display: inline-block;">
+                <h3>CONTATO</h3>
+                <!-- Aqui vai o seu rodapé -->      
+                <table>
+                    <tbody>
+                        <tr>
+                            <th scope="row">Rua</th>
+                            <td>Lúcia, 1631</td>
+                        
+                            
+                            <td>Belford Roxo - RJ</td>
+                       
+                             <th scope="row">CEP:</th>
+                             <td>26173-330</td>
+                        </tr>
+                        
+                    </tbody>
+                    <tbody>
+                        <tr>
+                            <th scope="row">Telefone: </th>
+                            <td> (21) 9328-9342</td>
+                        </tr>
+
+                    </tbody>
+                </table>
+                               
+            </div>
+        </div>
+    </div>
+</body>
+</html>
